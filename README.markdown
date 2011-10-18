@@ -7,4 +7,4 @@ A Source List control for use with the Mac OS X 10.5 SDK or above.  This is a po
 `PXSourceList-macruby` is licensed under the New BSD License.
 
 
-  [1]: http://github.com/Perspx/PXSourceList/downloads
+  [1]: http://github.com/Perspx/PXSourceList
