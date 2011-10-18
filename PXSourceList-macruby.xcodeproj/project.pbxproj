@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEFB543143BC468000AF317 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEFB542143BC468000AF317 /* Cocoa.framework */; };
+		6BEFB545143BC468000AF317 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEFB544143BC468000AF317 /* MacRuby.framework */; };
+		6BEFB54E143BC468000AF317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB54C143BC468000AF317 /* InfoPlist.strings */; };
+		6BEFB550143BC468000AF317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFB54F143BC468000AF317 /* main.m */; };
+		6BEFB555143BC468000AF317 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB553143BC468000AF317 /* MainMenu.xib */; };
+		6BEFB558143BC468000AF317 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB557143BC468000AF317 /* rb_main.rb */; };
+		6BEFB55A143BC468000AF317 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB559143BC468000AF317 /* AppDelegate.rb */; };
+		6BEFB566143BC4A2000AF317 /* SourceListItem.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB565143BC4A2000AF317 /* SourceListItem.rb */; };
+		6BEFB56D143BC541000AF317 /* audiobooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB567143BC541000AF317 /* audiobooks.png */; };
+		6BEFB56E143BC541000AF317 /* movies.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB568143BC541000AF317 /* movies.png */; };
+		6BEFB56F143BC541000AF317 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB569143BC541000AF317 /* music.png */; };
+		6BEFB570143BC541000AF317 /* playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB56A143BC541000AF317 /* playlist.png */; };
+		6BEFB571143BC541000AF317 /* playlistFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB56B143BC541000AF317 /* playlistFolder.png */; };
+		6BEFB572143BC541000AF317 /* podcasts.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFB56C143BC541000AF317 /* podcasts.png */; };
+		6BEFB578143BFB50000AF317 /* PXSourceList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEFB577143BFB50000AF317 /* PXSourceList.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BEFB547143BC468000AF317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEFB535143BC467000AF317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEFB53D143BC468000AF317;
+			remoteInfo = "PXSourceList-macruby";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BEFB53E143BC468000AF317 /* PXSourceList-macruby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PXSourceList-macruby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEFB542143BC468000AF317 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6BEFB544143BC468000AF317 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6BEFB54B143BC468000AF317 /* PXSourceList-macruby-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXSourceList-macruby-Info.plist"; sourceTree = "<group>"; };
+		6BEFB54D143BC468000AF317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BEFB54F143BC468000AF317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BEFB551143BC468000AF317 /* PXSourceList-macruby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXSourceList-macruby-Prefix.pch"; sourceTree = "<group>"; };
+		6BEFB554143BC468000AF317 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6BEFB557143BC468000AF317 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6BEFB559143BC468000AF317 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		6BEFB565143BC4A2000AF317 /* SourceListItem.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SourceListItem.rb; sourceTree = "<group>"; };
+		6BEFB567143BC541000AF317 /* audiobooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audiobooks.png; sourceTree = "<group>"; };
+		6BEFB568143BC541000AF317 /* movies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movies.png; sourceTree = "<group>"; };
+		6BEFB569143BC541000AF317 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		6BEFB56A143BC541000AF317 /* playlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlist.png; sourceTree = "<group>"; };
+		6BEFB56B143BC541000AF317 /* playlistFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlistFolder.png; sourceTree = "<group>"; };
+		6BEFB56C143BC541000AF317 /* podcasts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podcasts.png; sourceTree = "<group>"; };
+		6BEFB577143BFB50000AF317 /* PXSourceList.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXSourceList.framework; path = Library/Frameworks/PXSourceList.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BEFB53B143BC468000AF317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFB578143BFB50000AF317 /* PXSourceList.framework in Frameworks */,
+				6BEFB543143BC468000AF317 /* Cocoa.framework in Frameworks */,
+				6BEFB545143BC468000AF317 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BEFB533143BC467000AF317 = {
+			isa = PBXGroup;
+			children = (
+				6BEFB549143BC468000AF317 /* PXSourceList-macruby */,
+				6BEFB541143BC468000AF317 /* Frameworks */,
+				6BEFB53F143BC468000AF317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BEFB53F143BC468000AF317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFB53E143BC468000AF317 /* PXSourceList-macruby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEFB541143BC468000AF317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFB577143BFB50000AF317 /* PXSourceList.framework */,
+				6BEFB542143BC468000AF317 /* Cocoa.framework */,
+				6BEFB544143BC468000AF317 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BEFB549143BC468000AF317 /* PXSourceList-macruby */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFB559143BC468000AF317 /* AppDelegate.rb */,
+				6BEFB565143BC4A2000AF317 /* SourceListItem.rb */,
+				6BEFB552143BC468000AF317 /* Resources */,
+				6BEFB556143BC468000AF317 /* Other Sources */,
+				6BEFB54A143BC468000AF317 /* Supporting Files */,
+			);
+			path = "PXSourceList-macruby";
+			sourceTree = "<group>";
+		};
+		6BEFB54A143BC468000AF317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFB54B143BC468000AF317 /* PXSourceList-macruby-Info.plist */,
+				6BEFB54C143BC468000AF317 /* InfoPlist.strings */,
+				6BEFB54F143BC468000AF317 /* main.m */,
+				6BEFB551143BC468000AF317 /* PXSourceList-macruby-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BEFB552143BC468000AF317 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFB567143BC541000AF317 /* audiobooks.png */,
+				6BEFB568143BC541000AF317 /* movies.png */,
+				6BEFB569143BC541000AF317 /* music.png */,
+				6BEFB56A143BC541000AF317 /* playlist.png */,
+				6BEFB56B143BC541000AF317 /* playlistFolder.png */,
+				6BEFB56C143BC541000AF317 /* podcasts.png */,
+				6BEFB553143BC468000AF317 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BEFB556143BC468000AF317 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFB557143BC468000AF317 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6BEFB546143BC468000AF317 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 6BEFB560143BC468000AF317 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				6BEFB548143BC468000AF317 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6BEFB53D143BC468000AF317 /* PXSourceList-macruby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEFB55D143BC468000AF317 /* Build configuration list for PBXNativeTarget "PXSourceList-macruby" */;
+			buildPhases = (
+				6BEFB53A143BC468000AF317 /* Sources */,
+				6BEFB53B143BC468000AF317 /* Frameworks */,
+				6BEFB53C143BC468000AF317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXSourceList-macruby";
+			productName = "PXSourceList-macruby";
+			productReference = 6BEFB53E143BC468000AF317 /* PXSourceList-macruby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BEFB535143BC467000AF317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Itinerant Software Solutions";
+			};
+			buildConfigurationList = 6BEFB538143BC467000AF317 /* Build configuration list for PBXProject "PXSourceList-macruby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BEFB533143BC467000AF317;
+			productRefGroup = 6BEFB53F143BC468000AF317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BEFB53D143BC468000AF317 /* PXSourceList-macruby */,
+				6BEFB546143BC468000AF317 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BEFB53C143BC468000AF317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFB54E143BC468000AF317 /* InfoPlist.strings in Resources */,
+				6BEFB555143BC468000AF317 /* MainMenu.xib in Resources */,
+				6BEFB558143BC468000AF317 /* rb_main.rb in Resources */,
+				6BEFB55A143BC468000AF317 /* AppDelegate.rb in Resources */,
+				6BEFB566143BC4A2000AF317 /* SourceListItem.rb in Resources */,
+				6BEFB56D143BC541000AF317 /* audiobooks.png in Resources */,
+				6BEFB56E143BC541000AF317 /* movies.png in Resources */,
+				6BEFB56F143BC541000AF317 /* music.png in Resources */,
+				6BEFB570143BC541000AF317 /* playlist.png in Resources */,
+				6BEFB571143BC541000AF317 /* playlistFolder.png in Resources */,
+				6BEFB572143BC541000AF317 /* podcasts.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BEFB53A143BC468000AF317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFB550143BC468000AF317 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BEFB548143BC468000AF317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEFB53D143BC468000AF317 /* PXSourceList-macruby */;
+			targetProxy = 6BEFB547143BC468000AF317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BEFB54C143BC468000AF317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BEFB54D143BC468000AF317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BEFB553143BC468000AF317 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BEFB554143BC468000AF317 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BEFB55B143BC468000AF317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BEFB55C143BC468000AF317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BEFB55E143BC468000AF317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXSourceList-macruby/PXSourceList-macruby-Prefix.pch";
+				INFOPLIST_FILE = "PXSourceList-macruby/PXSourceList-macruby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BEFB55F143BC468000AF317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXSourceList-macruby/PXSourceList-macruby-Prefix.pch";
+				INFOPLIST_FILE = "PXSourceList-macruby/PXSourceList-macruby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BEFB561143BC468000AF317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6BEFB562143BC468000AF317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BEFB538143BC467000AF317 /* Build configuration list for PBXProject "PXSourceList-macruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFB55B143BC468000AF317 /* Debug */,
+				6BEFB55C143BC468000AF317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEFB55D143BC468000AF317 /* Build configuration list for PBXNativeTarget "PXSourceList-macruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFB55E143BC468000AF317 /* Debug */,
+				6BEFB55F143BC468000AF317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BEFB560143BC468000AF317 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFB561143BC468000AF317 /* Debug */,
+				6BEFB562143BC468000AF317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BEFB535143BC467000AF317 /* Project object */;
+}
